@@ -1,5 +1,6 @@
 # Cryptography
 A set of files used to encode and decode different ciphers
+
 The PASC.py file is used for decoding polyalphabetic subsitution ciphers. The message input is terminated by a line with a single #. Uses index of coincidence calculations to determine key length and then letter frequencies on ceaser shifts to find most likely key word and correctly decoded message.
 
 encryptDecrypt.py is a basic ceaser cipher function that will both encoded and decode messages.
